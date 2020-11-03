@@ -1,0 +1,2 @@
+C:\Users\medve\source\repos\Lab2\Debug\Lab2.exe
+C:\Users\medve\source\repos\Lab2\Debug\Lab2.pdb
