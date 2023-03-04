@@ -1,2 +1,0 @@
-C:\Users\medve\source\repos\Lab3\Debug\Lab3.exe
-C:\Users\medve\source\repos\Lab3\Debug\Lab3.pdb
