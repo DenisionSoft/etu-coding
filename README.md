@@ -1,8 +1,8 @@
-# Coding tasks at the Electrotechnical University
+# Coding tasks in ETU
 
-This repository contains code for tasks (historically referred to as "labs") for all Computer Science courses I took at the Electrotechnical University from the first semester up to today. Note that these are not all the CS courses I took, but only (some of) those that required coding.
+This repository contains code for tasks (historically referred to as "labs") for all Computer Science courses I took at Electrotechnical University from the first semester up to today. Note that these are not all the CS courses I took, but only (some of) those that required coding.
 
----
+
 ## Structure
 
 The repository contains a folder for each course.
@@ -11,7 +11,7 @@ Folders are named in the following format: `S[semester_number]. [course_name] ([
 
 For example, `S1. Programming (C++)`.
 
----
+
 ## Overview
 
 ### S1. Programming (C++)
@@ -46,7 +46,6 @@ Repository for the coursework can be found [here](https://github.com/DenisionSof
 Tasks of increasing complexity covering object-oriented paradigms. <br>
 These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
----
 ## License
 
 Since this repository contains code for tasks that were part of the curriculum, the code is licensed under the MIT License. See the LICENSE file for details.
