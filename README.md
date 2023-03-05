@@ -23,7 +23,7 @@ Repository for the coursework can be found [here](https://github.com/DenisionSof
 ### S3. Algorithms and Data Structures (Python)
 Code for tasks covering the basics of algorithms and data structures, with a coursework on Kruskal's algorithm.
 
-### S3. Computer Systems (C, C++)
+### S3. Computer Systems Organization (C, C++)
 Tasks focused on data representation in memory, pointers, interrupts and low-level programming.
 
 ### S4. Operating Systems (C++)
@@ -32,15 +32,15 @@ POSIX threads, semaphores, mutexes, shared memory, signals, channels, processes,
 ### S5. Data Management (SQL)
 This contains only the coursework, which was a database for a car service.
 
+### S5. Intelligent Data Analysis (R)
+Tasks covering the basics of data analysis and statistics. <br>
+These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
+
 ### S5. Machine Learning (Python, Jupyter)
 Four notebooks with code for tasks covering the basics of machine learning and statistics.
 
 ### *S5. Web Technologies (HTML, CSS)*
 Repository for the coursework can be found [here](https://github.com/DenisionSoft/ETU-Website).
-
-### S5. Intelligent Data Analysis (R)
-Tasks covering the basics of data analysis and statistics. <br>
-These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
 ### S6. Object-oriented Programming (C++, Qt)
 Tasks of increasing complexity covering object-oriented paradigms. <br>
