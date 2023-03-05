@@ -40,11 +40,11 @@ Repository for the coursework can be found [here](https://github.com/DenisionSof
 
 ### S5. Intelligent Data Analysis (R)
 Tasks covering the basics of data analysis and statistics. <br>
-These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha)
+These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
 ### S6. Object-oriented Programming (C++, Qt)
 Tasks of increasing complexity covering object-oriented paradigms. <br>
-These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha)
+These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
 ---
 ## License
