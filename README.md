@@ -18,7 +18,7 @@ For example, `S1. Programming (C++)`.
 Introduction to programming in C++.
 
 ### *S2. Programming (C++)*
-Repository for the coursework can be found [here](https://github.com/DenisionSoft/ETU-FileManager)
+Repository for the coursework can be found [here](https://github.com/DenisionSoft/ETU-FileManager).
 
 ### S3. Algorithms and Data Structures (Python)
 Code for tasks covering the basics of algorithms and data structures, with a coursework on Kruskal's algorithm.
@@ -36,7 +36,7 @@ This contains only the coursework, which was a database for a car service.
 Four notebooks with code for tasks covering the basics of machine learning and statistics.
 
 ### *S5. Web Technologies (HTML, CSS)*
-Repository for the coursework can be found [here]()
+Repository for the coursework can be found [here](https://github.com/DenisionSoft/ETU-Website).
 
 ### S5. Intelligent Data Analysis (R)
 Tasks covering the basics of data analysis and statistics. <br>
