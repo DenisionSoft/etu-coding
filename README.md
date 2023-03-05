@@ -18,7 +18,7 @@ For example, `S1. Programming (C++)`.
 Introduction to programming in C++.
 
 ### *S2. Programming (C++)*
-Repository for the coursework can be found [here]()
+Repository for the coursework can be found [here](https://github.com/DenisionSoft/ETU-FileManager)
 
 ### S3. Algorithms and Data Structures (Python)
 Code for tasks covering the basics of algorithms and data structures, with a coursework on Kruskal's algorithm.
