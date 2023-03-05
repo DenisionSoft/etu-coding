@@ -14,7 +14,6 @@ public:
     complex operator- (); // unary minus
     complex operator- (complex); // binary minus
     complex operator* (complex);
-    //complex operator* (double);
     friend complex operator* (double, complex);
     complex operator/ (complex);
     bool operator== (complex);

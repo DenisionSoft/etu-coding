@@ -43,16 +43,6 @@ complex complex::operator* (complex c)
     return t;
 }
 
-/*
-complex complex::operator* (double d)
-{
-    complex t;
-    t.re = re*d;
-    t.im = im*d;
-    return t;
-}
-*/
-
 complex operator* (double d, complex c)
 {
     complex t;
