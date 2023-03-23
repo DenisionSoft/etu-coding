@@ -48,7 +48,7 @@ These tasks were done in collaboration with [Maria Machula](https://github.com/M
 
 ## License
 
-Since this repository contains code for tasks that were part of the curriculum, the code is licensed under the MIT License. See the LICENSE file for details.
+Since this repository contains code for tasks that were part of the curriculum, the code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 The MIT license does not apply to external repositories linked above, unless otherwise stated.
