@@ -27,13 +27,6 @@ TInterface::TInterface(QWidget *parent)
     ExitButton = new QPushButton("Выход", this);
     ExitButton->setGeometry(10,210,280,30);
 
-    /*
-    connect(value_btn,SIGNAL(pressed()),
-            this,SLOT(formRequest()));
-    connect(print_classic_btn,SIGNAL(pressed()),
-            this,SLOT(formRequest()));
-    */
-
     connect(SetMatrixButton, SIGNAL(clicked()), this, SLOT(SetMatrixButtonClicked()));
     connect(GetDeterminantButton, SIGNAL(clicked()), this, SLOT(GetDeterminantButtonClicked()));
     connect(GetTransposedMatrixButton, SIGNAL(clicked()), this, SLOT(GetTransposedMatrixButtonClicked()));
@@ -54,31 +47,6 @@ TInterface::~TInterface()
 
 void TInterface::answer(QString msg)
 {
-    /*
-    QString text;
-    int p = msg.indexOf(separator);
-    int t = msg.left(p).toInt();
-    msg = msg.mid(p+1,msg.length()-p-2);
-    switch (t)
-    {
-        case VALUE_ANSWER:
-            text = "p";
-            p = msg.indexOf(separator);
-            text += msg.left(p);
-            text += " = ";
-            text += msg.right(msg.length()-p-1);
-            output->setText(text);
-            break;
-        case PRINT_ANSWER:
-            text = "p(x) = ";
-            text += msg;
-            output->setText(text);
-            break;
-        default: break;
-    }
-    */
-    
-    // get request type
     int request = msg.section(separator, 0, 0).toInt();
 
     switch (request)
