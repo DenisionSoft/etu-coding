@@ -46,6 +46,11 @@ Repository for the coursework can be found [here](https://github.com/DenisionSof
 Tasks of increasing complexity covering object-oriented paradigms. <br>
 These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
+### S6. Big Data (Python)
+Model training on big data using Random Forest algorithm from Apache Spark. <br>
+These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
+
+
 ## License
 
 Since this repository contains code for tasks that were part of the curriculum, the code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
