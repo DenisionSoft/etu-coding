@@ -42,14 +42,13 @@ Four notebooks with code for tasks covering the basics of machine learning and s
 ### *S5. Web Technologies (HTML, CSS)*
 Repository for the coursework can be found [here](https://github.com/DenisionSoft/ETU-Website).
 
-### S6. Object-oriented Programming (C++, Qt)
-Tasks of increasing complexity covering object-oriented paradigms. <br>
-These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
-
 ### S6. Big Data (Python)
 Model training on big data using Random Forest algorithm from Apache Spark. <br>
 These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
+### S6. Object-oriented Programming (C++, Qt)
+Tasks of increasing complexity covering object-oriented paradigms. <br>
+These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
 ## License
 
