@@ -46,9 +46,14 @@ Repository for the coursework can be found [here](https://github.com/DenisionSof
 Model training on big data using Random Forest algorithm from Apache Spark. <br>
 These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
-### S6. Object-oriented Programming (C++, Qt)
-Tasks of increasing complexity covering object-oriented paradigms. <br>
+### S6. Object-oriented Programming (C++, Java)
+Tasks of increasing complexity covering object-oriented paradigms in C++. <br>
+Also contains a coursework, a GUI elevator simulator, in Java. <br>
 These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
+
+### S6. Techniques and Tools for Information System Design (Java)
+A GUI in Java and Spring for a product classifier system with a database.<br>
+This task was done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
 ## License
 
