@@ -14,7 +14,6 @@ public class MainFrame extends JFrame {
     ViewportPanel viewportPanel;
 
     MainFrame() {
-        new CubeRotationFrame();
         this.setTitle("Graphics Viewer");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);

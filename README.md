@@ -51,9 +51,15 @@ Tasks of increasing complexity covering object-oriented paradigms in C++. <br>
 Also contains a coursework, a GUI elevator simulator, in Java. <br>
 These tasks were done in collaboration with [Maria Machula](https://github.com/M-Masha).
 
-### S6. Techniques and Tools for Information System Design (Java)
+### S6. Techniques and Tools for Information System Design (Java, SQL)
 A GUI in Java and Spring for a product classifier system with a database.<br>
 This task was done in collaboration with [Maria Machula](https://github.com/M-Masha).
+
+### S7. Computer Graphics (Java)
+A GUI editor for simple 2D graphics in Java AWT.
+
+### S7. Techniques and Tools for Information System Design (Java, SQL)
+A continuation of a project from semester 6.
 
 ## License
 

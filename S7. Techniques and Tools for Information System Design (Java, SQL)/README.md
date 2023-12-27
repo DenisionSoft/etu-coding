@@ -5,3 +5,5 @@ This is a desktop classification database manager written in Java 17 with Gradle
 The app is a multi window GUI made with Swing and AWT as a Bean that communicates to Services and extended-from-JPA Repositories.
 
 It was developed as a coursework for a Techniques and Tools for Information System Design course in ETU.
+
+To build and run, use `gradle build`, then `gradle bootRun` from the project root.

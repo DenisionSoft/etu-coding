@@ -10,8 +10,6 @@ public class ViewportPanel extends JPanel {
     int f;
     ArrayList<GPoint> points = new ArrayList<>();
     ArrayList<GPolygon> polygons = new ArrayList<>();
-    ArrayList<GPolygon3D> polygons3D = new ArrayList<>();
-    ArrayList<GCube> cubes = new ArrayList<>();
     int step;
     private boolean isGrid = true;
     private boolean isGridLabels = true;
@@ -21,20 +19,15 @@ public class ViewportPanel extends JPanel {
     ViewportPanel(int w, int h, int step) {
         this.x0 = w / 2;
         this.y0 = h / 2;
-        this.z0 = 0;
         this.x0a = w / 2;
         this.y0a = h / 2;
-        this.z0a = 0;
         this.f = 30; // fov
         this.xmax = w;
         this.ymax = h;
-        this.zmax = 0;
         this.step = step;
 
         this.setPreferredSize(new Dimension(w, h));
         this.setBackground(Color.BLACK);
-
-
     }
 
     public void paint(Graphics gold) {
@@ -91,62 +84,6 @@ public class ViewportPanel extends JPanel {
 
             if (isPolygonPoints)
                 pointDraw(g, polygonPoints);
-        }
-
-        // draw 3D polygons by using projection of X = X * (F / Z) , Y = Y * (F / Z)
-        for (GPolygon3D polygon : polygons3D) {
-            g.setPaint(polygon.getColor());
-            g.setStroke(new BasicStroke(2));
-
-            ArrayList<GPoint3D> polygonPoints = polygon.getPoints();
-            int polygonSize = polygonPoints.size();
-
-            int[] xPoints = new int[polygonSize];
-            int[] yPoints = new int[polygonSize];
-            for (int i = 0; i < polygonSize; i++) {
-                xPoints[i] = (int)Math.round(x0 + polygonPoints.get(i).getX() * step * (f / polygonPoints.get(i).getZ()));
-                yPoints[i] = (int)Math.round(y0 - polygonPoints.get(i).getY() * step * (f / polygonPoints.get(i).getZ()));
-            }
-            g.drawPolygon(xPoints, yPoints, polygonSize);
-
-            if (polygon.isFill()) {
-                g.fillPolygon(xPoints, yPoints, polygonSize);
-            }
-
-            /*
-            if (isPolygonPoints)
-                pointDraw(g, polygonPoints);
-
-             */
-        }
-
-        // draw cubes by drawing its polygons3d, respecting their color and using the same projection method as above
-        for (GCube cube : cubes) {
-            for (GPolygon3D polygon : cube.getPolygons()) {
-                g.setPaint(polygon.getColor());
-                g.setStroke(new BasicStroke(2));
-
-                ArrayList<GPoint3D> polygonPoints = polygon.getPoints();
-                int polygonSize = polygonPoints.size();
-
-                int[] xPoints = new int[polygonSize];
-                int[] yPoints = new int[polygonSize];
-                for (int i = 0; i < polygonSize; i++) {
-                    xPoints[i] = (int)Math.round(x0 + polygonPoints.get(i).getX() * step * (f / polygonPoints.get(i).getZ()));
-                    yPoints[i] = (int)Math.round(y0 - polygonPoints.get(i).getY() * step * (f / polygonPoints.get(i).getZ()));
-                }
-                g.drawPolygon(xPoints, yPoints, polygonSize);
-
-                if (polygon.isFill()) {
-                    g.fillPolygon(xPoints, yPoints, polygonSize);
-                }
-
-                /*
-                if (isPolygonPoints)
-                    pointDraw(g, polygonPoints);
-
-                 */
-            }
         }
 
         g.setPaint(Color.WHITE);
