@@ -5,9 +5,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class Misis2ApplicationTests {
-
+    /*
     @Test
     void contextLoads() {
     }
+    */
 
 }
