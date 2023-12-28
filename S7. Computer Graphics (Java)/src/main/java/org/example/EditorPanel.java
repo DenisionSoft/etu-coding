@@ -137,21 +137,6 @@ public class EditorPanel extends JPanel {
         });
         this.add(y0Slider);
 
-        JSlider z0Slider = new JSlider(-1000, 1000, 0);
-        z0Slider.setPreferredSize(new Dimension(170, 15));
-        z0Slider.setForeground(Color.WHITE);
-        z0Slider.setOpaque(false);
-        z0Slider.setFocusable(false);
-
-        z0Slider.setOrientation(SwingConstants.HORIZONTAL);
-        z0Slider.addChangeListener(e -> {
-            viewportPanel.setZ0(z0Slider.getValue() + vp.z0a);
-            viewportPanel.repaint();
-        });
-        this.add(z0Slider);
-
-
-
         JLabel dividerLabel3 = new JLabel();
         dividerLabel3.setPreferredSize(new Dimension(170, 15));
         dividerLabel3.setFocusable(false);

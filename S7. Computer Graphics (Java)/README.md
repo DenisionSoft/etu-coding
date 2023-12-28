@@ -1,0 +1,1 @@
+To run, use Java 17 and from root run `gradle build`, `gradle jar` and `java -jar .\build\libs\glab_one-1.0-SNAPSHOT.jar`
