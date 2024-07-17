@@ -61,6 +61,9 @@ A GUI editor for simple 2D graphics in Java AWT.
 ### S7. Techniques and Tools for Information System Design (Java, SQL)
 A continuation of a project from semester 6.
 
+### S8. Real-Time Systems (C)
+Tasks focusing on real-time systems, interrupts and timeouts.
+
 ## License
 
 Since this repository contains code for tasks that were part of the curriculum, the code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
